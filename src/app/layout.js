@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner"
 
 export const metadata = {
   title: "Chat File - AI-powered file Chat Service - AIStarter.dev",
@@ -10,6 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
+        <Toaster />
       </body>
     </html>
   );
